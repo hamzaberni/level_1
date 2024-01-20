@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+nav {
+    background-color: #dadbf1;
+    height: 300px;
+    width: 100%;
+}
+div.black {
+    background-color: #000000;
+    height: 80px;
+}
+.container {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 40px;
+}
+div > p {
+    font-size: 50px;
+    font-family: 
+}
+.search {
+    height: 50px;
+    width: 500px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: grey;
+    border: 30px black;
+}
