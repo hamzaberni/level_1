@@ -21,15 +21,45 @@ div.black {
     flex-direction: row;
     margin-top: 40px;
 }
-div > p {
+.help {
     font-size: 50px;
-    font-family: 
+    color: #000000;
 }
 .search {
+    position: relative;
     height: 50px;
     width: 500px;
     border-radius: 5px;
     font-size: 15px;
     color: grey;
     border: 30px black;
+    
+}
+.black {
+    justify-content: flex-end;
+}
+.submit {
+    font-size: 15px;
+    color: white;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #000000;
+    border: 5px white;
+    margin-left: 80%;
+    margin-top: 10px;
+}
+.sign {
+    font-size: 15px;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #4C5FD5;
+}
+ .abbuttons > button {
+    color: white;
+    font-size: 15px;
+    background-color: #000000;
+    align-items: flex-end;
 }
