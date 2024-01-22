@@ -32,7 +32,7 @@ div.black {
     border-radius: 5px;
     font-size: 15px;
     color: grey;
-    border: 30px black;
+    border: 1px solid black;
     
 }
 .black {
@@ -41,25 +41,55 @@ div.black {
 .submit {
     font-size: 15px;
     color: white;
-    height: 30px;
+    height: 35px;
     width: 150px;
     border-radius: 5px;
     background-color: #000000;
-    border: 5px white;
-    margin-left: 80%;
-    margin-top: 10px;
+    border: 1px solid white;
+    margin-left: 70%;
+    
 }
 .sign {
     font-size: 15px;
     color: white;
-    height: 30px;
+    height: 35px;
     width: 100px;
     border-radius: 5px;
     background-color: #4C5FD5;
 }
- .abbuttons > button {
+.ab {
     color: white;
     font-size: 15px;
     background-color: #000000;
     align-items: flex-end;
+    height: 20px;
+}
+.center {
+    color: white;
+    font-size: 15px;
+    background-color: #000000;
+    align-items: flex-end;
+    height: 20px;
+}
+.black > button {
+    margin-top: 20px;
+}
+.qr {
+    color: #dadbf1;
+}
+
+.boxes {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+h1{
+    font-size: larger;
+}
+.boxes > p {
+    width: 90px;
+    height: 350px;
 }
